@@ -685,6 +685,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
+		padding: 30px;
 		align-items: stretch;
 	}
 
