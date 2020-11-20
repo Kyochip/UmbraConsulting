@@ -5,7 +5,7 @@
 
     $email_from = 'umbraconsultingau@gmail.com'
 
-    $email_subject = "Test subject";
+    $email_subject = "Visitor from Umbra Consulting site";
 
     $email_body = "User Name: $name.\n".
                     "User Email: $visitor_email.\n".
