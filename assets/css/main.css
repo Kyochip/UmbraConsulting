@@ -197,6 +197,10 @@ input, select, textarea {
 			margin: 4em 0;
 		}
 
+		hr.major2 {
+			margin: 4em 0;
+		}
+
 	blockquote {
 		border-left: solid 4px rgba(255, 255, 255, 0.3);
 		font-style: italic;
@@ -2203,6 +2207,25 @@ input, select, textarea {
 		margin: 4em 0 0 0;
 	}
 
+	header.major2 {
+		margin: 0 0 4em 0;
+		position: relative;
+		text-align: left;
+	}
+
+		header.major2:after {
+			background: #e44c6500;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 20em;
+			width: 75%;
+		}
+
+	footer.major2 {
+		margin: 4em 0 0 0;
+	}
+
 /* Form */
 
 	form {
@@ -2511,6 +2534,43 @@ input, select, textarea {
 					color: #000000 !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
+		.icon.major2 {
+			background: #000000;
+			border-radius: 100%;
+			cursor: default;
+			display: inline-block;
+			height: 6em;
+			line-height: 5.65em;
+			margin: 0 0 2em 0;
+			text-align: center;
+			width: 6em;
+		}
+
+			.icon.major2:before {
+				font-size: 2.25em;
+			}
+
+			.icon.major2.alt {
+				text-decoration: none;
+			}
+
+				.icon.major2.alt:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					line-height: 1;
+					text-transform: none !important;
+					font-family: 'Font Awesome 5 Free';
+					font-weight: 400;
+				}
+
+				.icon.major2.alt:before {
+					color: #000000 !important;
+					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+				}
 
 /* Image */
 
@@ -2572,7 +2632,7 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
-			max-height: 100px;
+			max-height: 150px;
 		}
 
 			.image.fit2 img {
@@ -4224,6 +4284,9 @@ input, select, textarea {
 			}
 
 			header.major {
+				margin: 0 0 2em 0;
+			}
+			header2.major {
 				margin: 0 0 2em 0;
 			}
 
