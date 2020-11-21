@@ -3492,7 +3492,7 @@ input, select, textarea {
 						display: none;
 					}
 
-	body.landing #page-wrapper {
+	/* body.landing #page-wrapper {
 		padding-top: 0;
 	}
 
@@ -3500,14 +3500,14 @@ input, select, textarea {
 		background: transparent;
 		box-shadow: none;
 		position: absolute;
-	}
+	} */
 
 /* Banner */
 
 	#banner {
 		background-attachment: fixed;
 		background-color: #000000;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/full-umbrella-ring-black.png");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3526,10 +3526,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgb(0, 0, 0), rgb(0, 0, 0)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgb(0, 0, 0), rgb(0, 0, 0)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgb(0, 0, 0), rgb(0, 0, 0)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgb(0, 0, 0), rgb(0, 0, 0)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.842)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.801)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.774)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.76)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
