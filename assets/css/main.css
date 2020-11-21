@@ -3935,12 +3935,12 @@ input, select, textarea {
 					}
 		
 						#footer > .inner section:nth-child(1) {
-							width: calc(80% - 1.25em);
+							width: calc(82% - 1.25em);
 							margin-right: 1.25em;
 						}
 		
 						#footer > .inner section:nth-child(2) {
-							width: calc(20% - 1.25em);
+							width: calc(18% - 1.25em);
 							margin-left: 1.25em;
 						}
 		
