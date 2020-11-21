@@ -167,9 +167,13 @@ input, select, textarea {
 	}
 
 	h6 {
+		color: #757575;
 		font-size: 0.7em;
 		line-height: 1.5em;
 	}
+	.closer { 
+		line-height: 1px;
+	  }
 
 	sub {
 		font-size: 0.8em;
@@ -2562,6 +2566,16 @@ input, select, textarea {
 		}
 
 			.image.fit img {
+				width: 100%;
+			}
+		.image.fit2 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+			max-height: 100px;
+		}
+
+			.image.fit2 img {
 				width: 100%;
 			}
 
