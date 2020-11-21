@@ -3663,6 +3663,86 @@ input, select, textarea {
 	body.is-touch #banner2 {
 		background-attachment: scroll;
 	}
+	/* banner 2 */
+		#banner3 {
+			background-attachment: fixed;
+			background-color: #000000;
+			background-image: url("../../images/pic10.jpg");
+			background-position: center center;
+			background-size: cover;
+			box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+			min-height: 50vh;
+			position: relative;
+			text-align: center;
+			z-index: 21;
+		}
+
+			#banner3:before {
+				content: '';
+				display: inline-block;
+				height: 50vh;
+				vertical-align: middle;
+				width: 1%;
+			}
+
+			#banner3:after {
+				background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.842)), url("images/overlay.png");;
+				background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.801)), url("images/overlay.png");;
+				background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.774)), url("images/overlay.png");;
+				background-image: linear-gradient(top, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.76)), url("images/overlay.png");;
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			#banner3 .content {
+				display: inline-block;
+				margin-right: 1%;
+				max-width: 95%;
+				padding: 6em;
+				position: relative;
+				text-align: right;
+				vertical-align: middle;
+				z-index: 1;
+			}
+
+				#banner3 .content header {
+					display: inline-block;
+					vertical-align: middle;
+				}
+
+					#banner3 .content header h2 {
+						font-size: 2.5em;
+						margin: 0;
+					}
+
+					#banner3 .content header p {
+						margin: 0.5em 0 0 0;
+						top: 0;
+					}
+
+				#banner3 .content .image {
+					border-radius: 100%;
+					display: inline-block;
+					height: 18em;
+					margin-left: 3em;
+					vertical-align: middle;
+					width: 18em;
+				}
+
+					#banner3 .content .image img {
+						border-radius: 100%;
+						display: block;
+						width: 100%;
+					}
+
+		body.is-touch #banner3 {
+			background-attachment: scroll;
+		}
 
 /* Footer */
 
@@ -3922,6 +4002,11 @@ input, select, textarea {
 			#banner2 .content {
 				padding: 4.5em;
 			}
+		/* Banner3 */
+
+			#banner3 .content {
+				padding: 4.5em;
+			}
 
 		/* Footer */
 
@@ -4017,7 +4102,7 @@ input, select, textarea {
 						margin: 0;
 					}
 
-			/* Banner2 */
+		/* Banner2 */
 
 			#banner2 {
 				background-attachment: scroll;
@@ -4042,6 +4127,30 @@ input, select, textarea {
 						margin: 0;
 					}
 
+		/* Banner3 */
+
+			#banner3 {
+				background-attachment: scroll;
+			}
+
+				#banner3 .goto-next {
+					height: 7em;
+				}
+
+				#banner3 .content {
+					padding: 9em 0;
+					text-align: center;
+				}
+
+					#banner3 .content header {
+						display: block;
+						margin: 0 0 2em 0;
+						text-align: center;
+					}
+
+					#banner3 .content .image {
+						margin: 0;
+					}
 		/* Footer */
 
 			#footer {
@@ -4162,7 +4271,7 @@ input, select, textarea {
 						height: 9em;
 						width: 9em;
 					}
-					/* Banner */
+					
 
 		/* Banner2 */
 			#banner2 {
@@ -4183,6 +4292,28 @@ input, select, textarea {
 					}
 
 					#banner2 .content .image {
+						height: 9em;
+						width: 9em;
+					}
+		/* Banner3 */
+			#banner3 {
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+				min-height: calc(100vh - 44px);
+			}
+
+				#banner3:before {
+					height: calc(100vh - 44px);
+				}
+
+				#banner3 .content {
+					padding: 4.0625em 1.5em 4.875em 1.5em;
+				}
+
+					#banner3 .content header h2 {
+						font-size: 1.5em;
+					}
+
+					#banner3 .content .image {
 						height: 9em;
 						width: 9em;
 					}
@@ -4424,6 +4555,11 @@ input, select, textarea {
 		/* Banner2 */
 
 			#banner2 .content {
+				padding: 3em 1.5625em 5.25em 1.5625em;
+			}
+		/* Banner3 */
+
+			#banner3 .content {
 				padding: 3em 1.5625em 5.25em 1.5625em;
 			}
 
