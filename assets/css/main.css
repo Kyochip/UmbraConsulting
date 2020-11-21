@@ -3591,7 +3591,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		min-height: 100vh;
+		min-height: 50vh;
 		position: relative;
 		text-align: center;
 		z-index: 21;
@@ -3600,7 +3600,7 @@ input, select, textarea {
 		#banner2:before {
 			content: '';
 			display: inline-block;
-			height: 100vh;
+			height: 50vh;
 			vertical-align: middle;
 			width: 1%;
 		}
