@@ -11,8 +11,30 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- back to top -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script>
+		$(document).ready(function(){
+		$(window).scroll(function(){
+			if($(window).scrollTop() > 300){
+			$('i').css({
+				"opacity":"1", "pointer-events":"auto"
+			});
+			}else{
+			$('i').css({
+				"opacity":"0", "pointer-events":"none"
+			});
+			}
+		});
+		$('i').click(function(){
+			$('html').animate({scrollTop:0}, 500);
+		});
+		});
+		</script>
 	</head>
 	<body class="is-preload landing">
+		<i class="fas fa-chevron-up"></i>
 		<div id="page-wrapper">
 
 			<!-- Header -->
