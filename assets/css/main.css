@@ -670,7 +670,7 @@ input, select, textarea {
 			width: 100%;
 		}
 		
-		.container.large.post{
+		.container.post{
 			position: relative;
 			padding-bottom: 200%;
 			padding-right: 150%;
@@ -679,7 +679,7 @@ input, select, textarea {
 			overflow: hidden;
 		}
 		
-		.container.large.post iframe {
+		.container.post iframe {
 			position: absolute;
 			top:0;
 			left: 0;
@@ -689,8 +689,8 @@ input, select, textarea {
 		@media screen and (max-width: 1600px) {
 
 			.container {
-				width: 50%;
-				max-width: 80%;
+				width: 80%;
+				max-width: 100%;
 			}
 
 		}
@@ -698,7 +698,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: 80%;
+				width: 60%;
 				max-width: 100%;
 			}
 
