@@ -2511,6 +2511,7 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 			text-align: center;
 			width: 6em;
+			padding: 7px 10px;
 		}
 
 			.icon.major:before {
