@@ -672,7 +672,7 @@ input, select, textarea {
 		
 		.container.max.post{
 			position: relative;
-			padding-bottom: 220%;
+			padding-bottom: 200%;
 			padding-right: 150%;
 			padding-top: 35px;
 			height: 0;
@@ -688,7 +688,7 @@ input, select, textarea {
 		}
 		@media screen and (max-width: 1500px) {
 
-			.container {
+			.container.max.post {
 				width: 80%;
 				max-width: 100%;
 			}
@@ -697,7 +697,7 @@ input, select, textarea {
 	
 		@media screen and (max-width: 1280px) {
 
-			.container {
+			.container.max.post {
 				width: 80%;
 				max-width: 100%;
 			}
@@ -706,7 +706,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			.container {
+			.container.max.post {
 				width: 100;
 				width: 100% !important;
 			}
