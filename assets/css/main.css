@@ -670,7 +670,7 @@ input, select, textarea {
 			width: 100%;
 		}
 		
-		.container.max.post{
+		.container.large.post{
 			position: relative;
 			padding-bottom: 200%;
 			padding-right: 150%;
@@ -679,25 +679,25 @@ input, select, textarea {
 			overflow: hidden;
 		}
 		
-		.container.max.post iframe {
+		.container.large.post iframe {
 			position: absolute;
 			top:0;
 			left: 0;
 			width: 100%;
 			height: 100%;
 		}
-		@media screen and (max-width: 1500px) {
+		@media screen and (max-width: 1600px) {
 
-			.container.max.post {
-				width: 80%;
-				max-width: 100%;
+			.container {
+				width: 50%;
+				max-width: 80%;
 			}
 
 		}
 	
 		@media screen and (max-width: 1280px) {
 
-			.container.max.post {
+			.container {
 				width: 80%;
 				max-width: 100%;
 			}
@@ -706,7 +706,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			.container.max.post {
+			.container{
 				width: 100;
 				width: 100% !important;
 			}
