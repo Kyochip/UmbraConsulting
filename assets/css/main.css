@@ -42,11 +42,11 @@ footer, header, hgroup, menu, nav, section {
 		background-blend-mode: multiply,multiply;
 	
 		/*      theme font-family   */
-		--Abel: 'Abel', cursive;
+		/* --Abel: 'Abel', cursive;
 		--Anton: 'Anton', cursive;
 		--Josefin : 'Josefin', cursive;
 		--Lexend: 'Lexend', cursive;
-		--Livvic : 'Livvic', cursive;
+		--Livvic : 'Livvic', cursive; */
 	}
 	.text-gray{
 		color: var(--text-gray);
@@ -133,7 +133,7 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e44c65;
+		color: #ffffff;
 		border-bottom-color: #ffffff00;
 		text-decoration: none;
 	}
