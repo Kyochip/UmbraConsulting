@@ -3081,7 +3081,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		height: 80vh;
+		height: 90vh;
 		overflow: hidden;
 		position: relative;
 	}
@@ -4073,7 +4073,12 @@ input, select, textarea {
 			}
 
 		/* Spotlight */
-
+			.spotlight .image.main {
+				display: block;
+				margin: 0;
+				max-height: 20vh;
+				overflow: hidden;
+			}
 			.spotlight.top .content {
 				padding: 3.825em 0 1.825em 0;
 			}
