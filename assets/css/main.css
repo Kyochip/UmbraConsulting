@@ -51,6 +51,11 @@ footer, header, hgroup, menu, nav, section {
 	.text-gray{
 		color: var(--text-gray);
 	}
+	.flex-row{
+		display: flex;
+		flex-direction: row;    
+		flex-wrap: wrap;
+	}
 body {
 	line-height: 1;
 }
@@ -4868,7 +4873,7 @@ main .post-content .post-title a{
 }
 
 .site-content .pagination a{
-    padding: .6rem .9rem;
+    padding: .1rem .8rem;
     border-radius: 2rem;
     margin: 0 .3rem;
     font-family: var(--Lexend);
