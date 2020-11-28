@@ -4976,9 +4976,9 @@ main .post-content .post-title a{
 /*      x       Viewport less then or equal to 1130px    x     */
 
 
-/*              Viewport less then or equal to 750px            */
+/*              Viewport less then or equal to 1040px            */
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 1040px){
 
     main .site-content{
         grid-template-columns: 100%;
@@ -4988,7 +4988,7 @@ main .post-content .post-title a{
 }
 
 
-/*        x      Viewport less then or equal to 750px       x     */
+/*        x      Viewport less then or equal to 1040px       x     */
 
 
 /*              Viewport less then or equal to 520px            */
