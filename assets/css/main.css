@@ -3968,12 +3968,15 @@ input, select, textarea {
 			}
 
 			#footer > .inner section:nth-child(1) {
-				width: calc(80% - 2.5em);
+				/* background: red; */
+				width: calc(75% - 11em);
 				margin-right: 2.5em;
+				margin-left: 8.5em;
 			}
 
 			#footer > .inner section:nth-child(2) {
-				width: calc(20% - 2.5em);
+				/* background: blue; */
+				width: calc(25% - 2.5em);
 				margin-left: 2.5em;
 			}
 
@@ -4059,13 +4062,14 @@ input, select, textarea {
 					}
 		
 						#footer > .inner section:nth-child(1) {
-							width: calc(82% - 1.25em);
-							margin-right: 1.25em;
+							width: calc(75% - 9em);
+							margin-right: 2.5em;
+							margin-left: 6.5em;
 						}
 		
 						#footer > .inner section:nth-child(2) {
-							width: calc(18% - 1.25em);
-							margin-left: 1.25em;
+							width: calc(25% - 2.5em);
+							margin-left: 2.5em;
 						}
 		
 				}
@@ -4073,13 +4077,14 @@ input, select, textarea {
 				@media screen and (max-width: 980px) {
 		
 					#footer > .inner section:nth-child(1) {
-						width: 75%;
-						margin-right: 0;
+						width: calc(75% - 6em);
+							margin-right: 2.5em;
+							margin-left: 3.5em;
 					}
 		
 					#footer > .inner section:nth-child(2) {
 						width: calc(25% - 2.5em);
-						margin-left: 2.5em;
+							margin-left: 2.5em;
 					}
 		
 				}
