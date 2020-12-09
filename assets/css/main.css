@@ -3970,9 +3970,9 @@ input, select, textarea {
 
 			#footer > .inner section:nth-child(1) {
 				/* background: red; */
-				width: calc(75% - 11em);
+				width: calc(75% - 13em);
 				margin-right: 2.5em;
-				margin-left: 8.5em;
+				margin-left: 10.5em;
 			}
 
 			#footer > .inner section:nth-child(2) {
@@ -4005,7 +4005,7 @@ input, select, textarea {
 					#footer > .inner .copyright li:first-child {
 						border-left: 0;
 						padding-left: 0;
-						margin-left: 5.5em;
+						margin-left: 13.5em;
 					}
 
 		#footer .icons .icon.alt {
@@ -4072,6 +4072,9 @@ input, select, textarea {
 							width: calc(25% - 2.5em);
 							margin-left: 2.5em;
 						}
+						#footer > .inner .copyright li:first-child {
+							margin-left: 9.5em;
+						}
 		
 				}
 		
@@ -4086,6 +4089,9 @@ input, select, textarea {
 					#footer > .inner section:nth-child(2) {
 						width: calc(25% - 2.5em);
 							margin-left: 2.5em;
+					}
+					#footer > .inner .copyright li:first-child {
+						margin-left: 6.5em;
 					}
 		
 				}
@@ -4144,6 +4150,7 @@ input, select, textarea {
 		
 							#footer > .inner .copyright li:first-child {
 								margin-top: 0;
+								margin-left: 1.5em;
 							}
 		
 				}
