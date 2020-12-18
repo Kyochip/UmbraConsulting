@@ -2321,6 +2321,22 @@ input, select, textarea {
 			max-width: 20em;
 			width: 75%;
 		}
+		header.major3:after {
+			background: #4c81e4;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 20em;
+			width: 75%;
+		}
+		header.major4:after {
+			background: #4ce486;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 20em;
+			width: 75%;
+		}
 
 	footer.major {
 		margin: 4em 0 0 0;
@@ -3988,7 +4004,87 @@ input, select, textarea {
 		body.is-touch #banner3 {
 			background-attachment: scroll;
 		}
+	/* banner 4 */
+		#banner4 {
+			background-attachment: fixed;
+			background-color: #000000;
+			background-image: url("../../images/Instagram3x1-04.jpg");
+			background-position: center center;
+			background-size: cover;
+			box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+			min-height: 5vh;
+			max-height: 20vh;
+			position: relative;
+			text-align: center;
+			z-index: 21;
+		}
 
+			#banner4:before {
+				content: '';
+				display: inline-block;
+				height: 50vh;
+				vertical-align: middle;
+				width: 1%;
+			}
+
+			#banner4:after {
+				background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.842)), url("images/overlay.png");;
+				background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.801)), url("images/overlay.png");;
+				background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.774)), url("images/overlay.png");;
+				background-image: linear-gradient(top, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.76)), url("images/overlay.png");;
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			#banner4 .content {
+				display: inline-block;
+				margin-right: 1%;
+				max-width: 95%;
+				position: relative;
+				margin-top: -200px;
+				text-align: right;
+				vertical-align: middle;
+				z-index: 1;
+			}
+
+				#banner4 .content header {
+					display: inline-block;
+					vertical-align: middle;
+				}
+
+					#banner4 .content header h2 {
+						font-size: 2.5em;
+						margin: 0;
+					}
+
+					#banner4 .content header p {
+						margin: 0.5em 0 0 0;
+						top: 0;
+					}
+
+				#banner4 .content .image {
+					border-radius: 100%;
+					display: inline-block;
+					height: 18em;
+					margin-left: 3em;
+					vertical-align: middle;
+					width: 18em;
+				}
+
+					#banner4 .content .image img {
+						border-radius: 100%;
+						display: block;
+						width: 100%;
+					}
+
+		body.is-touch #banner4 {
+			background-attachment: scroll;
+		}
 /* Footer */
 
 	#footer {
@@ -4460,6 +4556,30 @@ input, select, textarea {
 					#banner3 .content .image {
 						margin: 0;
 					}
+		/* Banner4 */
+
+			#banner4 {
+				background-attachment: scroll;
+			}
+
+				#banner4 .goto-next {
+					height: 7em;
+				}
+
+				#banner4 .content {
+					padding: 1em 0;
+					text-align: center;
+				}
+
+					#banner4 .content header {
+						display: block;
+						margin: 0 0 2em 0;
+						text-align: center;
+					}
+
+					#banner4 .content .image {
+						margin: 0;
+					}
 		/* Nav */
 
 		#page-wrapper {
@@ -4807,7 +4927,28 @@ input, select, textarea {
 						height: 9em;
 						width: 9em;
 					}
+		/* Banner4 */
+			#banner4 {
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+				/* min-height: calc(100vh - 44px); */
+			}
 
+				/* #banner4:before {
+					height: calc(100vh - 44px);
+				} */
+
+				/* #banner4 .content {
+					padding: 4.0625em 1.5em 4.875em 1.5em;
+				} */
+
+					#banner4 .content header h2 {
+						font-size: 1.5em;
+					}
+
+					#banner4 .content .image {
+						height: 9em;
+						width: 9em;
+					}
 		/* Footer */
 
 			#footer {
@@ -4870,7 +5011,11 @@ input, select, textarea {
 			#banner3 .content {
 				padding: 3em 1.5625em 5.25em 1.5625em;
 			}
+		/* Banner4 */
 
+			#banner4 .content {
+				padding: 3em 1.5625em 5.25em 1.5625em;
+			}
 		/* Footer */
 
 			#footer {
@@ -5187,4 +5332,9 @@ main .post-content .post-title a{
 .column1 {
   width: 100%;
 }
+}
+
+.animate__animated.animate__bounce {
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
 }
